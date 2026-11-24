@@ -1,6 +1,7 @@
 // One Line, One Minute: The Vending Machine Pickup Line Contest.
 // Entry program (Node 22): writes the machine's pickup line to /output/entry.txt.
 // Gate: UTF-8 text, 1-200 characters, not whitespace-only, one line, no trailing newline.
+// revised: BILL-VALIDATOR won the duel 5-0 — the crumpled-dollar bit stays; the line ships as-is.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LINE =
